@@ -1,0 +1,33 @@
+<plugin name='ambasadoro-plugin' version='0.1' grailsVersion='2.2 &gt; *'>
+  <author>Your name</author>
+  <title>Ambasadoro Plugin Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/ambasadoro-plugin</documentation>
+  <type>AmbasadoroPluginGrailsPlugin</type>
+  <resources>
+    <resource>com.ambasadoro.Ambasadoro</resource>
+    <resource>com.ambasadoro.LtiAccessLog</resource>
+    <resource>com.ambasadoro.LtiContext</resource>
+    <resource>com.ambasadoro.LtiLaunch</resource>
+    <resource>com.ambasadoro.LtiResourceLink</resource>
+    <resource>com.ambasadoro.LtiToolConsumer</resource>
+    <resource>com.ambasadoro.LtiUser</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='https://raw.github.com/blindsidenetworks/bigbluebutton-api/mvn-repo/' url='https://raw.github.com/blindsidenetworks/bigbluebutton-api/mvn-repo/' />
+    <repository name='https://raw.github.com/blindsidenetworks/lti/mvn-repo/' url='https://raw.github.com/blindsidenetworks/lti/mvn-repo/' />
+    <repository name='https://raw.github.com/blindsidenetworks/oauth/mvn-repo/' url='https://raw.github.com/blindsidenetworks/oauth/mvn-repo/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='org.bigbluebutton' name='bigbluebutton-api' version='1.0.5' />
+      <dependency group='org.lti' name='lti' version='1.0.4' />
+    </runtime>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
