@@ -1,8 +1,8 @@
 class AmbasadoroPluginGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "0.4"
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "2.2 > *"
+    def grailsVersion = "2.3 > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "grails-app/views/error.gsp"
@@ -10,7 +10,7 @@ class AmbasadoroPluginGrailsPlugin {
 
     // TODO Fill in these fields
     def title = "Ambasadoro Plugin Plugin" // Headline display name of the plugin
-    def author = "Your name"
+    def author = "Jesus Federico"
     def authorEmail = ""
     def description = '''\
 Brief summary/description of the plugin.

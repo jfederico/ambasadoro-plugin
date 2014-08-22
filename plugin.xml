@@ -1,0 +1,17 @@
+<plugin name='ambasadoro-plugin' version='0.4' grailsVersion='2.3 &gt; *'>
+  <author>Jesus Federico</author>
+  <title>Ambasadoro Plugin Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/ambasadoro-plugin</documentation>
+  <type>AmbasadoroPluginGrailsPlugin</type>
+  <resources>
+    <resource>com.ambasadoro.Ambasadoro</resource>
+    <resource>com.ambasadoro.LtiAccessLog</resource>
+    <resource>com.ambasadoro.LtiContext</resource>
+    <resource>com.ambasadoro.LtiLaunch</resource>
+    <resource>com.ambasadoro.LtiResourceLink</resource>
+    <resource>com.ambasadoro.LtiToolConsumer</resource>
+    <resource>com.ambasadoro.LtiUser</resource>
+  </resources>
+</plugin>
