@@ -3,8 +3,8 @@ package com.ambasadoro.engine;
 import java.util.Map;
 
 import com.ambasadoro.Ambasadoro;
+import com.ambasadoro.AmbasadoroException;
 import com.ambasadoro.engine.IEngine;
-import com.ambasadoro.exceptions.AmbasadoroException;
 
 import org.apache.log4j.Logger;
 import org.lti.api.LTIToolProvider;

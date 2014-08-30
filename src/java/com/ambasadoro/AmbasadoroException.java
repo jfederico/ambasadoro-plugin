@@ -1,4 +1,4 @@
-package com.ambasadoro.exceptions;
+package com.ambasadoro;
 
 public class AmbasadoroException extends Exception {
 
